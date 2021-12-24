@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack --config=webpack.config.js --mode=production",
     "dev": "webpack --watch --config=webpack.config.js --mode=development",
-    "start": "nodemon dist/bundle.js"
+    "start": "node dist/bundle.js"
   },
   "keywords": [],
   "author": "",
