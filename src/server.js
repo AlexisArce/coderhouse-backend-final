@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
-app.use("/api/carrito", cart);
+app.use("/api/carritos", cart);
 app.use("/api/productos", products);
 app.use("/", index);
 
